@@ -1,0 +1,396 @@
+header {
+
+   width: 100%;
+}
+
+.container img{
+    width: 60px;
+}
+.navbar-nav {
+    margin-left: 200px; /* Adjust as needed */
+  gap: 30px;
+  font-weight: 600;
+
+}
+.nav-link{
+    color: black;
+}
+
+.nav-link:hover{
+ background-color: black;
+ color: white;
+}
+
+
+#image img{
+    width: 100%;
+    padding: 20px;
+}
+.WorkWings {
+    height: 10rem;
+    width: 11rem;
+    background-image: url('./images/WorksSwing.png');
+    background-size: cover;
+    position: relative;
+    top: -20rem;
+    left: 39rem;
+}
+
+/* .BrochureDownload {
+    background-color: #5c4507;
+    width: 149px;
+    rotate: -90deg;
+    margin-left: auto;
+    position: fixed;
+    top: 20rem;
+    padding: 8px;
+    font-weight: 200;
+    color: #fff;
+    left: 78.3rem;
+} */
+.section{
+    margin-top:60px ;
+    color: white;
+    text-align: center;
+    top:0;
+    margin-bottom: 0;
+    background-color: rgb(17, 51, 17);
+}
+hr{
+    width: 200px;
+   margin-left: 160px;
+ border: 1px solid white;
+   
+}
+
+.section h4{
+    font-size: 20px;
+}
+
+.new-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.new-form-group-button{
+    color: #fff;
+    background-color: orange;
+    padding: 2px;
+    border: 1px solid orange;
+}
+
+.new-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.new-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.new-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.new-button:hover {
+    background-color: #0056b3;
+}
+
+.BrochureDownload button {
+   
+    background-color: #5c4507;
+    width: 140px;
+    rotate: -90deg;
+    margin-left: auto;
+    position: fixed;
+    top: 20rem;
+    padding: 8px;
+    font-weight: 200;
+    color: #fff;
+    left: 76.3rem;
+}
+
+.section h1{
+    font-family: 'Brush Script MT', cursive;
+}
+
+#countdown h1{
+    font-family: 'Brush Script MT', cursive;
+}
+
+#countdown{
+    margin-top: 20px;
+    line-height: 1.8rem;
+}
+
+.img-fluidAll{
+    border-radius: 40px;
+}
+
+.button-btn{
+    border: 1px solid rgb(192, 94, 23);
+    background-color: saddlebrown;
+    color: white;
+    padding: 6px;
+    font-weight: 500;
+
+}
+
+.button-btn:hover{
+    border: 1px solid orange;
+    background-color: orange;
+    text-decoration: underline;
+}
+
+.facility {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .facility i {
+    margin-right: 10px;
+    font-size: 20px; /* Adjust size as needed */
+  }
+
+  .facility span {
+    font-size: 18px; /* Adjust size as needed */
+  }
+
+  .floor {
+    display: inline-block;
+    overflow: hidden; /* Ensure the border does not protrude */
+    margin-left: 280px;
+    width: 700px;
+ 
+    margin-bottom: 0px;
+    position: relative; /* Make the container positioned relative */
+}
+
+.floor img {
+    padding: 10px;
+    width: 670px;
+    height: 330px;
+    border: 2px solid gray;
+    filter: blur(3px);
+    /* Adjust the blur radius as needed */
+}
+
+.button-on-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Additional styling for the button */
+    padding: 10px 20px;
+ background-color: black;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.textbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Hide the textbox by default */
+.hidden {
+    display: none;
+}
+
+
+.from-group input{
+   width:100px; 
+}
+
+.top h1{
+    font-family: 'Brush Script MT', cursive;
+}
+.Order span {
+    margin: 10px; /* Adjust the value to increase or decrease the space */
+
+}
+.carousel {
+ margin: 50px;
+}
+
+.carousel-inner .carousel-item {
+    transition: opacity 1s ease;
+  }
+  .carousel-inner .carousel-item.active {
+    opacity: 1;
+  }
+  .carousel-inner .carousel-item-next,
+  .carousel-inner .carousel-item-prev {
+    opacity: 0;
+  }
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+#sendnowdo{
+    background-color: orangered;
+}
+
+
+#heading {
+color: black;
+text-align: center;
+}
+
+.carousel h5{
+    text-align: center;
+}
+
+#send{
+    text-align: center;
+}
+
+.close-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: #000; /* Adjust color as needed */
+}
+.floor h2{
+    text-align: center;
+    padding: 20px;
+}
+
+.close-icon i {
+    font-size: 24px;
+}
+
+#map  {
+   
+    width: 600px;
+}
+
+.Location-text {
+    margin-top: 0rem;
+    background-color: #fff;
+    padding: 2rem;
+}
+.Location-img {
+    background-image: url('./images/map\ \(1\).jpg');
+    background-size: cover;
+    height: 23rem;
+    width: 96%;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.responsive-map {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.responsive-map iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.sectionlink {
+    margin-top: 0rem;
+    background-color: #e7e8ea;
+    padding: 2rem;
+}
+
+.icon i{
+    width: 30px;
+    padding: 30px;
+}
+.custom-class {
+    margin-top: 0rem;
+    background-color: #034e1a;
+    padding: 2rem;
+}
+
+.ACT {
+    margin-bottom: 20px;
+    margin-top: 0rem;
+    background-color: #fff;
+    padding: 5rem;
+}
+
+
+.footer {
+    box-shadow: 0 0 3px 1px rgb(0 0 0 / 70%);
+    position: fixed;
+    bottom: 0;
+    margin-top: 0rem;
+    background-color: #fff;
+    padding: 0.4rem;
+    width: 100%;
+}
+
+.footer input{
+    width: 200px;
+}
+
+@media (max-width: 768px) {
+    .floor {
+        width: 100%; /* Make the floor container full width */
+        margin-left: 0; /* Remove left margin */
+    }
+
+    .floor img {
+        width: 100%; /* Make the image full width */
+        height: auto; /* Maintain aspect ratio */
+    }
+.WorkWings{
+    display: none;
+}
+    .textbox {
+        max-width: 90%; /* Adjust maximum width of textbox */
+    }
+    .Location-map{
+        flex-direction: column;
+    }
+    #google img{
+  width:300px;
+    }
+
+  
+
+    .work-img {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer .form-group {
+     display: none;
+    }
+} 
